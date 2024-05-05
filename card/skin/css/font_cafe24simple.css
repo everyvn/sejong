@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Cafe24Simplehae';
+    src: url('/card/font/Cafe24Simplehae.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Cafe24Simplehae';
+}

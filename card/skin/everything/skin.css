@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+#evetything {text-align: center;}
+#evetything .main {position: relative;}
+#evetything .section_tit {color: #e5ac53;}
+
+#evetything .main .top_txt {padding: 80px 0 40px;}
+#evetything .main .top_txt .mini {font-size: 0.75rem; letter-spacing: 8px; margin-bottom: 20px; display: inline-block; width: 100%;}
+#evetything .main .top_txt .main_name span {font-size: 1.125rem;}
+#evetything .main img {width: 100%; display: block;}
+#evetything .main .bottom_txt {padding: 50px 0;}
+#evetything .main .bottom_txt p:first-of-type {margin-bottom: 15px;}
+
+#evetything .main_img_wrap {display: inline-block; width:100%; overflow: hidden; position: relative;}
+#evetything .main .moving {/*background-image: url(/card/skin/fall_in_love/img/moving2.gif);*/ background-size: cover; background-repeat: no-repeat; height: 100%; position: absolute; top: 0; width: 100%;}
+
+#evetything .main_name {position: absolute; top: 50px; left: 50%; transform: translateX(-50%); width: 100%; z-index: 1;}
+#evetything .main_name .groom_line {display: block; width: 16px; height: 1px; background-color: #fff; margin: 20px auto;}
+#evetything .main_name span {font-size: 1.25rem; color: #fff;}
+#evetything .gradient_top {background-image: url(/card/skin/everything/img/black_top.png); height: 250px; position: absolute; top: 0; left: 0; right: 0; opacity: 0.7;}
+#evetything .gradient_bottom {background-image: url(/card/skin/everything/img/black_bottom.png); height: 200px; position: absolute; bottom: 0; left: 0; right: 0;}
+#evetything .main_b_txt {position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 100%; line-height: 25px;}
+#evetything .main_b_txt p {color: #fff;}
+#evetything .main_b_txt p span {color: #fff;}
+
+/* 인사말 */
+#evetything .greeting_wrap {padding: 0 16%; line-height: 35px;}
+#evetything .greeting_wrap .greeting_inner span {margin-bottom: 20px; display: inline-block; width: 100%; color: #e5ac53; font-family: 'Allison', cursive !important; font-size: 1.875rem;}
+
+/* 전화 */
+#evetything .call_wrap .call_box_btn p {border: 1px solid #e5ac53; color: #e5ac53; border-radius: 30px;}
+#evetything .call_wrap .call_box_btn p span {color: #e5ac53;}
+#evetything .call_pop_down > p {background-color: #edcd9d;}
+#evetything .call_pop_down > p span {color: #fff;}
+#evetything .call_pop_down > p i {color: #fff;}
+
+/* 달력 */
+#evetything .calendar_wrap #kCalendar {padding: 0 16%;}
+#evetything #kCalendar .weddingday {background-color: #edcd9d; border-radius: 10px;}
+#evetything .remain i {vertical-align: bottom; color: #fd8b79;}
+
+/* 지도 */
+#evetything .map_inner .map_detail {background-color: #edcd9d; color: #fff;}
+#evetything .map_inner .way_guide .way_tit {color: #e5ac53;}
+
+/* 계좌 */
+#evetything .account_box .account_tit {background-color: #f9f7f4; border-radius: 30px;}
+#evetything .account_box .cover_wrap {border-top: none; border-radius: 30px;}
+
+/* 방명록 */
+#evetything .guest_book_inner {background-color: #f9f7f4; margin: 40px 0;}
+#evetything .book_box .book_inner {border-radius: 10px;}
+#evetything .book_btn a {background-color: #fff; border-radius: 30px;}
+
+#invite_wrap .book_wrap .book_title {background-color: #e5ac53; color: #fff;}
+#invite_wrap .book_wrap .book_title i {color: #fff;}
+
+/* 참석여부 */
+#evetything .attend_inner .check_attend {background-color: #f9f7f4; border-radius: 30px;}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {background-image: url(/card/skin/img/left.svg);}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {background-image: url(/card/skin/img/right.svg);}
+.swiper-button-next, .swiper-button-prev {background-size: 15px;}
+.swiper-button-next:after, .swiper-button-prev:after {opacity: 0;}
+
+.offset_7{position: relative;}
+.bgm_stop{position: absolute; top: 80px; width: 30%; height: 25%; z-index: 999; transform: translate(120%,60%);}
