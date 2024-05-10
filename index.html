@@ -365,18 +365,24 @@
                             <p class="dday_inner remain" style='display:inline-block;'>
                                 <span data-name="groom_name">김세종</span>
                                 <span>❤️</span>
-                                <span data-name="bride_name">팜탄하</span> 님의 결혼식<span id="wd_d-day"></span>
+                                <span data-name="bride_name">팜탄하</span> 결혼식<span id="wd_d-day"></span>
                             </p>
                         </div>
 
                         <script>
-
                             $(document).ready(function () {
+                                var today = new Date();
+                                var dd = String(today.getDate()).padStart(2, '0');
+                                var mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+                                var yyyy = today.getFullYear();
+                                today = yyyy + '-' + mm + '-' + dd;
+
                                 kCalendar('kCalendar', '2024-07-13');
-                                wdDday('2024-05-04', '2024-07-13');
+                                wdDday(today, '2024-07-13');
                             });
                         </script>
                     </div>
+
                     <div class="map_wrap anchor_2 wrap_padding">
                         <div class="offset_3 offset">
                             <input type="hidden" id="wd_xpos" name="wd_xpos" value="127.015900817212" readonly="">
